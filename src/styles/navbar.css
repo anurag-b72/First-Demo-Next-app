@@ -1,0 +1,44 @@
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+  }
+  
+  .menu-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu-bar li {
+    margin: 0 10px;
+  }
+  
+  .menu-bar li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .menu-bar li a:hover {
+    background-color: #555;
+    color: #FFA500;
+  }
+  
+  @media screen and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .menu-bar li {
+      margin: 10px 0;
+    }
+  }
+  
